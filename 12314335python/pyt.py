@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from scipy.stats import norm
 import scipy.stats as stats
-df = pd.read_csv(r"C:\Users\pavan\OneDrive\Desktop\12314335python\pav.csv")
+df = pd.read_csv(r"12314335python/pav.csv")
 print(df.head())
 df.info()
 df.describe()
